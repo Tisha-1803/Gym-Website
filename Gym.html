@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rejuven8</title>
+
+    <style>
+        body{
+            background: url('img/bg.jpg');
+            height: 800px;
+        }
+
+        .white{
+background-color:transparent   ;
+height: 10%;
+display: flex;
+/* position: fixed; */
+
+        }
+        
+
+        .left{
+            /* border: 2px solid red; */
+            display:block;
+            width: 15%;
+            margin: auto;
+            padding: 5px;
+            position: absolute;
+            height: 11%;
+            /* background-color: black; */
+            
+           
+            
+        }
+
+        .left img{
+            width: 28%;
+            margin-left: 3%;
+        }
+
+        .left div{
+            color: #e1e1b1;
+    /* margin-left: 20%; */
+    text-align: center;
+
+        }
+
+        .center {
+            padding: 8px;
+            display: inline-block;
+            /* border: 2px solid red; */
+            margin: auto 296px;
+            /* padding: 5px;
+            height: 8%; */
+            width: 36%;
+           
+            
+            
+        }
+
+        .navbar{
+            display: inline-block;
+            
+            
+        }
+
+        .navbar li{
+            padding: 7px;
+            color: #e1e1b1;
+            display: inline-block;
+        }
+
+
+
+        .center div{
+            margin-left: 209%;
+            width: 30%;
+            display: inline-block;
+           
+        } 
+
+        .center a:hover{
+            color: #a65b6d;
+            cursor: pointer;
+            
+        }
+
+        /* .right{
+            display: inline-block;
+    border: 2px solid red;
+    width: 8%;
+    height: 8%;
+    position: absolute;
+    padding-top: 28px;
+    padding-left: 34px;
+    
+        } */
+
+        .btn{
+            color: #57114f;
+            margin: 24px;
+            background-color: gray;
+            
+            
+        }
+
+        .right button:hover{
+            background-color:#d6b9d1;
+        }
+
+
+
+       /* .right div{
+         background-color: aliceblue; 
+        display: flex  ;                 ;
+    border: 2px solid red;
+    width: 8%;
+    height: 8%;
+    position: absolute;
+    padding-top: 28px;
+    padding-left: 34px;
+       } */
+
+       h1{
+        color: #8cb5c1;
+        margin: 44px 12px 6px 392px;
+       }
+
+       h2{
+        color: #8cb5c1;
+        margin: 15px 12px 35px 440px;
+       }
+
+       .form{
+        margin-left: 10px;
+        display: inline-block;
+        color: #d6b9d1;
+       }
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="white">
+    <div class="left" >
+        <div class="logo">
+            <img src="img/logo.jpg" alt="">
+            <div>Rejeven8</div>
+        </div>
+    </div>
+
+    <div class="center">
+        <ul class="navbar">
+            <li><a>Home</a></li>
+            <li><a>About us</a></li>
+            <li><a>Services</a></li>
+            <li><a>Membership</a></li>
+            <li><a>Contact Us</a></li>
+        </ul>
+        
+    </div>
+
+    <div class="right">
+        <!-- <div class="btn">Join Now</div> -->
+        <button class="btn">Join Now</button>
+
+    </div>
+
+</div>
+
+
+<div class="forms">
+    <h1>Welcome to Rejeven8</h1>
+    <h2>Let's Get Moving!</h2>
+    <form>
+        <div class="form">
+            Full Name:<br> <input type="text" placeholder="Name" size="50">
+        </div>
+        <br>
+
+        <div class="form">
+            Email: <br><input type="email" placeholder="email id" size="50">
+        </div><br>
+
+        <div class="form">
+            Contact No.: <br><input type="number" placeholder="Contact">
+        </div>
+
+        <div class="form">
+            Age Group:<br><select name="age" >
+                <option>18-25</option>
+                <option>26-40</option>
+                <option>41-60</option>
+                <option>60 & above</option>
+            </select>
+        </div><br>
+
+        <div class="form">
+            Message(if any)<br><textarea cols="50" rows="5"></textarea>
+        </div><br><br>
+
+        <div class="form">
+            Submit<br><input type="submit">
+        </div>
+
+        <div class="form">
+            Reset<br><input type="reset">
+        </div>
+    </form>
+</div>
+
+    
+
+
+    
+</body>
+</html>
